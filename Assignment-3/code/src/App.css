@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: cadetblue; */
+}
+.emp-name-id {
+  height: 10vh;
+  background-color: gainsboro;
+  width: 100vw;
+  margin: auto;
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 5vw;
+  font-size: 3vw;
+  cursor: pointer;
+}
+.name-id {
+  display: inline-block;
+  margin-left: 35vw;
+}
+
+.print {
+  display: inline-block;
+  height: 4vh;
+  width: 4vw;
+  /* padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw; */
+  margin-left: 33%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+  cursor: pointer;
+  font-size: 1.5vw;
+}
+
+.name {
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.id {
+  font-size: 1.2vw;
+  text-align: center;
+}
+
+.customer-info {
+  display: grid;
+  align-content: space-around;
+  width: 90vw;
+  height: 25vh;
+  border: 1px solid black;
+  /* background-color: antiquewhite; */
+
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.order-info {
+  width: 90vw;
+  height: 18vh;
+  border: 1px solid black;
+  background-color: gainsboro;
+
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.order-info {
+  display: grid;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 5fr 8fr 1fr;
+  /* align-items: center; */
+  /* grid-template-rows: 1fr; */
+  width: 90vw;
+  height: 25vh;
+  border: 1px solid black;
+  /* background-color: antiquewhite; */
+
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.checkbox-parent {
+  align-self: center;
+  justify-self: center;
+}
+
+/* .checkbox {
+  outline: 2px solid goldenrod;
+
+  outline-offset: -2px;
+  cursor: pointer;
+} */
+
+input[type="checkbox"] {
+  width: 3vw;
+  height: 3vw;
+  outline: 2px solid goldenrod;
+
+  outline-offset: -2px;
+  cursor: pointer;
+}
+
+img {
+  width: 16vw;
+  height: 20vh;
+}
+
+.image {
+  align-self: center;
+  justify-self: center;
+}
+
+.right-arrow {
+  align-self: center;
+  justify-self: center;
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+.description {
+  padding-top: 2vh;
+}
