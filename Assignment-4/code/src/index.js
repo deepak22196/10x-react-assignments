@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Postview from "./Postview";
+import App from "./App";
 
 ReactDOM.render(
   <>
-    <Postview />
+    <App />
   </>,
   document.getElementById("root")
 );
